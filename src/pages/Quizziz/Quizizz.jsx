@@ -49,7 +49,6 @@ const Quizizz = () => {
 				});
 			}
 	};
-	// Play again
 	const handleAgain = () => {
 		setSentence(0);
 		setLock(false);
