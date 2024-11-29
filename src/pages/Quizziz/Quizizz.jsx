@@ -1,8 +1,9 @@
 import { useContext, useEffect, useRef, useState } from "react";
 import { ThemeContext } from "../../context/ThemeContext";
-import "./Quizziz.css";
+import "./Quizizz.css";
 
-const Quizziz = () => {
+
+const Quizizz = () => {
 	const { Questions } = useContext(ThemeContext);
 	const [sentence, setSentence] = useState(0);
 	const [questions, setQuestions] = useState([]);
@@ -103,6 +104,7 @@ const Quizziz = () => {
 			)}
 		</div>
 	);
-};
+}
 
-export default Quizziz;
+export default Quizizz
+

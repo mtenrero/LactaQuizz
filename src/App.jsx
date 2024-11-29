@@ -1,4 +1,4 @@
-import Quizziz from './pages/Quizziz/Quizziz';
+import Quizziz from './pages/Quizziz/Quizizz';
 
 function App() {
 
