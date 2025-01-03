@@ -1,0 +1,322 @@
+[
+    {
+        "question": "Laura ha tenido a su bebé prematuro, Pablo, de 31.5 semanas de edad gestacional. ¿Cuál es la respuesta adecuada para reconocer una zona de riesgo de Pablo?",
+        "answer_A": "La semi impresión externa debe desde el primer día de vida para garantizar producción de leche.",
+        "answer_B": "No podrá alimentarse hasta que cumpla la semana 40 o que tendrá una situación difícil.",
+        "answer_C": "Pablo no obtendrá su suplementar con lípidos.",
+        "answer_D": "",
+        "answer": 1
+    },
+    {
+        "question": "¿Cómo ayudan los portátiles en la lactancia materna?",
+        "answer_A": "Conectar directo del bazo con el pecho.",
+        "answer_B": "Posibilidad de ver el pecho en cualquier lugar.",
+        "answer_C": "Posibilidad de realizar otras tareas mientras se da el pecho.",
+        "answer_D": "Todas las anteriores son correctas.",
+        "answer": 4
+    },
+    {
+        "question": "Un bebé prematuro tardío.",
+        "answer_A": "No es capaz de alimentarse al pecho en ningún caso.",
+        "answer_B": "Puedo ser amamantado, pero hacer tomas eficaces al pecho.",
+        "answer_C": "Suele ser muy flaco al pecho.",
+        "answer_D": "No suele tener problemas de salud.",
+        "answer": 2
+    },
+    {
+        "question": "Ana se está extrayendo leche para su bebé gran prematuro, Juan!",
+        "answer_A": "Debe ser animada a extraerse justo la cantidad que Juan necesita en cada momento para no tener sobreabundancia.",
+        "answer_B": "La mejor intervención para la hipogalactia es administrar domperidona.",
+        "answer_C": "Debe ser animada a tener un conocimiento superior a las necesidades de Juan, para asegurar una buena producción a largo plazo.",
+        "answer_D": "Hay que animarla a que duerma bien toda la noche, para que esté descansada y.",
+        "answer": 3
+    },
+    {
+        "question": "Laura ha tenido a su bebé prematuro, Pablo, de 35 semanas de edad gestacional. Laura necesitará ayuda para reconocer una tónica eficaz de Pablo.",
+        "answer_A": "Le será imprescindible extraer leche desde la primera hora de vida para garantizar la producción de leche.",
+        "answer_B": "No podrás amamantar hasta que no cumpla 40 y que no tendrá una opción eficaz.",
+        "answer_C": "Pablo no debería ser suplementado con biberón.",
+        "answer_D": "Incorrecto",
+        "answer": 1
+    },
+    {
+        "question": "¿Dónde nace el método madre canguro (MMC)?",
+        "answer_A": "México",
+        "answer_B": "Colombia",
+        "answer_C": "Suecia",
+        "answer_D": "Francia",
+        "answer": 2
+    },
+    {
+        "question": "Son indicadores de una succión inmadura en bebés nacidos prematuros, todas 'excepto':",
+        "answer_A": "Tiempo de toma de más de 30 min.",
+        "answer_B": "Realizar entre 1 y 5 succiones por ocasión.",
+        "answer_C": "Pausas largas entre ciclos de succión.",
+        "answer_D": "Escasa transferencia de leche.",
+        "answer": 1
+    },
+    {
+        "question": "Son indicadores de una succión inmadura en bebés nacidos prematuros, todas 'excepto':",
+        "answer_A": "Tiempo de toma de más de 30 min.",
+        "answer_B": "Realizar entre 1 y 5 succiones por ocasión.",
+        "answer_C": "Pausas largas entre ciclos de succión.",
+        "answer_D": "Escasa transferencia de leche.",
+        "answer": 1
+    },
+    {
+        "question": "¿Por qué es importante preservar el entorno que el bebé tenía dentro del útero durante los primeros meses después del nacimiento?",
+        "answer_A": "No es importante preservar el entorno",
+        "answer_B": "Nacemos llenos de tiempo y necesitamos cuidados",
+        "answer_C": "Tendremos que preservar el entorno un tiempo muy breve para que el bebé no 'se acostumbre'",
+        "answer_D": "Eso solo es importante si se elige un tipo determinado de crianza",
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el transporte ergonómico?",
+        "answer_A": "Un sistema de transporte que permite el contacto constante entre el bebé y la persona portadora.",
+        "answer_B": "Un sistema de transporte que permite el contacto constante entre el bebé y la persona portadora y que respeta la fisiología y biofísica del niño.",
+        "answer_C": "Un sistema de transporte que permite el contacto constante entre el bebé y la persona portadora y que respeta la fisiología y la biofísica del niño.",
+        "answer_D": "Un sistema de transporte que permite el contacto constante entre el bebé y la persona portadora y que respeta la fisiología del niño.",
+        "answer": 2
+    },
+    {
+        "question": "¿Con qué edad gestacional (E.G.) se podría iniciar la suplementación oral con hierro?",
+        "answer_A": "Entre la 12 y 14 E.G.",
+        "answer_B": "Antes de la 16 E.G.",
+        "answer_C": "A partir de la 16 E.G.",
+        "answer_D": "No es un mínimo de suplementación adecuado para las E.G.",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué necesita un bebé para sobrevivir?",
+        "answer_A": "Alimento y nutrientes",
+        "answer_B": "Alimento, higiene, descanso y afecto",
+        "answer_C": "Alimento, higiene y descanso",
+        "answer_D": "Alimento y cuidado",
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el transporte ergonómico?",
+        "answer_A": "Un sistema de transporte que permite el contacto constante entre el bebé y la persona portadora.",
+        "answer_B": "Un sistema de transporte que permite el contacto constante entre el bebé y la persona portadora y que respeta la fisiología y biofísica del niño.",
+        "answer_C": "Un sistema de transporte que permite el contacto constante entre el bebé y la persona portadora y que respeta la fisiología del niño.",
+        "answer_D": "Un sistema de transporte que permite el contacto constante entre el bebé y la persona portadora y que respeta la biofísica del niño.",
+        "answer": 2
+    },
+    {
+        "question": "Son indicaciones de una sesión inmediata en bebés recién nacidos, 'excepto':",
+        "answer_A": "Siempre que María esté alerta y muestre deseo de succión.",
+        "answer_B": "Siempre durante el cambio.",
+        "answer_C": "Tiempo de una hora de vida.",
+        "answer_D": "Reclinar entre 5 y 10 grados por cula.",
+        "answer": 3
+    },
+    {
+        "question": "¿Cómo ayudan los portátiles en la lactancia materna?",
+        "answer_A": "Conectar directo del bazo con el pecho.",
+        "answer_B": "Posibilidad de dar el pecho en cualquier lugar.",
+        "answer_C": "Posibilidad de realizar otras tareas mientras se da el pecho.",
+        "answer_D": "Todas las anteriores son correctas.",
+        "answer": 4
+    },
+    {
+        "question": "Tienes nos consta, tiene un bet predeterminado externo ingresado desde hace 3 semanas y no consigue extraer suficiente leche. ¿Qué se debe de ayudar?",
+        "answer_A": "Informar sobre lo importante que es la producción adecuada para el momento de la puesta al pecho",
+        "answer_B": "Reclutar información sobre su técnica de extracción",
+        "answer_C": "Decidir cambiar su patrón de salud del ingreso al bebé",
+        "answer_D": "Revisar la situación y recursos",
+        "answer": 1
+    },
+    {
+        "question": "¿Con qué edad gestacional (EG) se podría iniciar la suplementación oral con calostro?",
+        "answer_A": "Entre la 32 y 34 SEG",
+        "answer_B": "Antes de la 32 SEG",
+        "answer_C": "A partir de 34 SEG",
+        "answer_D": "No es un método de suplementación adecuado para los ENF",
+        "answer": 1
+    },
+    {
+        "question": "¿Cómo pueden los portátiles en la lactancia materna?",
+        "answer_A": "Centrarse dentro del pecho con el portátil",
+        "answer_B": "Posicionar el bebé con el portátil",
+        "answer_C": "Utilizar el portátil en cualquier lugar",
+        "answer_D": "No se puede usar el portátil",
+        "answer": 2
+    },
+    {
+        "question": "Teniendo en cuenta que hay un bet de presumir externo ingresado desde hace 3 semanas y no conseguir extraer suficiente leche, ¿Qué se debe hacer a continuación?",
+        "answer_A": "Informar sobre lo importante que es la producción adecuada para el momento de la puesta al pecho.",
+        "answer_B": "Reclutar información sobre la versión de extracción.",
+        "answer_C": "Decidir temporalmente sobre la situación y recursos.",
+        "answer_D": "Consultar con el patrón de salud del ingreso al bebé.",
+        "answer": 1
+    },
+    {
+        "question": "El Cuidado Madre Canguro- Señala la incorrecta",
+        "answer_A": "Consiste en colocar al bebé prematuro piel con piel con por su madre",
+        "answer_B": "Tiene beneficios para la madre",
+        "answer_C": "Tiene beneficios para el bebé",
+        "answer_D": "No le puede llover a cado si el bebé es muy prematuro",
+        "answer": 1
+    },
+    {
+        "question": "El Cuidado Materno Canguro. Señala lo incorrecto.",
+        "answer_A": "Consiste en colocar el bebé prematuro piel con piel con su madre",
+        "answer_B": "Tiene beneficios para la madre",
+        "answer_C": "Tiene beneficios para el bebé",
+        "answer_D": "No se puede llevar a cabo si el bebé es muy prematuro.",
+        "answer": 4
+    },
+    {
+        "question": "¿Cuál de estos NO es un beneficio del puerto ergonómico?",
+        "answer_A": "Sensación de seguridad",
+        "answer_B": "Disminución del estrés",
+        "answer_C": "Termoregulación",
+        "answer_D": "Menor circulación más intensa",
+        "answer": 4
+    },
+    {
+        "question": "Un bebé prematuro tardío",
+        "answer_A": "No es capaz de alimentarse al pecho en ninguna cosa.",
+        "answer_B": "Puedes ser inmaduro para hacer algunos esfuerzos al pecho.",
+        "answer_C": "Suele ser muy fácil al pecho.",
+        "answer_D": "No suele tener problemas de salud.",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué pasó cuando decidieron sacar a los bebés de las incubadoras y colocarlos junto a sus madres?",
+        "answer_A": "Se recomendaron la mortalidad entre los neuróticos",
+        "answer_B": "No se hallaron diferencias significativas entre los bebés que estaban con sus madres y los que seguían en las incubadoras",
+        "answer_C": "Hallaron mejoras en diferentes aspectos de la salud de los bebés que estaban con sus madres",
+        "answer_D": "Las madres empeoraron porque no podían descansar",
+        "answer": 3
+    },
+    {
+        "question": "El Cuidado Madre Canguro- Señala la incorrecta",
+        "answer_A": "Consiste en colocar al bebé prematuro piel con piel con su madre",
+        "answer_B": "Tiene beneficios para la madre",
+        "answer_C": "Tiene beneficios para el bebé",
+        "answer_D": "No le puede llover a cado si el bebé es muy prematuro",
+        "answer": 4
+    },
+    {
+        "question": "¿Con qué edad gestacional (EG) se podría iniciar la suplementación con convulsión?",
+        "answer_A": "Entre la 32 y 34 EG",
+        "answer_B": "Antes de la 32 EG",
+        "answer_C": "A partir de la 36 EG",
+        "answer_D": "No es un mínimo de suplementación adecuado para la EGH",
+        "answer": 2
+    },
+    {
+        "question": "Laura ha tenido a su bebé prematuro, Pablo, de 35 semanas de edad gestacional. Laura necesitará ayuda para reconocer una tónica eficaz para Pablo.",
+        "answer_A": "Le será imprescindible extraer leche desde la primera hora de vida para garantizar producción de leche.",
+        "answer_B": "No podrás amamantar hasta que no cumpla 40 y que no tendrá una opción eficaz.",
+        "answer_C": "Pablo no debería ser suplementado con biberón.",
+        "answer_D": "Incorrecto",
+        "answer": 1
+    },
+    {
+        "question": "Un bebé prematuro sano.",
+        "answer_A": "No es capaz de alimentarse al pecho sin ningún líquido.",
+        "answer_B": "Puedo ser amamantado y hacer tomas eficaces al pecho.",
+        "answer_C": "Suele ser muy flaco al pecho.",
+        "answer_D": "No sufre problemas de salud.",
+        "answer": 2
+    },
+    {
+        "question": "¿Cómo se preserva el entorno uterino tras el nacimiento?",
+        "answer_A": "Mediante la no separación de la madre, la alimentación a demanda y contacto físico siempre que sea posible",
+        "answer_B": "Lactancia materna a demanda",
+        "answer_C": "Cogiendo al bebé cuando libre",
+        "answer_D": "Con un puchito que esté caliento e imite el sonido del corazón humano",
+        "answer": 1
+    },
+    {
+        "question": "María es una bebé de 33 semanas de EGC que está iniciando la succión al pecho, ¿en qué momento se puede ofrecer esa succión?",
+        "answer_A": "Siempre antes de la toma.",
+        "answer_B": "Siempre después de la toma.",
+        "answer_C": "Siempre que María esté alerta y muestre deseo de succionar.",
+        "answer_D": "Siempre durante el canguro.",
+        "answer": 3
+    },
+    {
+        "question": "¿Cómo se preserva el entorno uterino tras el nacimiento?",
+        "answer_A": "Mediante la no separación de la madre, la alimentación a demanda y contacto físico siempre que sea posible",
+        "answer_B": "Lactancia materna a demanda",
+        "answer_C": "Cogiendo al bebé cuando libre",
+        "answer_D": "Con un puchito que esté caliento e imite el sonido del corazón humano",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué necesita un bebé para sobrevivir?",
+        "answer_A": "Alimento y nutrientes",
+        "answer_B": "Alimento, higiene, descanso y afecto",
+        "answer_C": "Alimento, higiene y descanso",
+        "answer_D": "Alimento y cuidado",
+        "answer": 2
+    },
+    {
+        "question": "El Cuidador Mate Cangrejo, Señala lo incorrecto.",
+        "answer_A": "Consiste en colocar el biberón presunto por tan piel con su madre",
+        "answer_B": "Tiene beneficios para la madre",
+        "answer_C": "Tiene beneficios para el bebé",
+        "answer_D": "No se puede llevar a cabo si el bebé es muy prematuro.",
+        "answer": 1
+    },
+    {
+        "question": "María es una bate de 18 semanas de EGC que está indicando la opción a seguir, ¿en qué momento se puede ofrecer esa sucesión?",
+        "answer_A": "Siempre que María esté en su término",
+        "answer_B": "Siempre que María esté en cualquier momento de su éxito",
+        "answer_C": "Siempre que María esté en su último deseo de sucesión",
+        "answer_D": "Siempre que María esté en carga",
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál de estos NO es un beneficio del puerto ergonómico?",
+        "answer_A": "Sensación de seguridad",
+        "answer_B": "Disminución del estrés",
+        "answer_C": "Termoregulación",
+        "answer_D": "Mejor circulación más intensa",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué pasó cuando decidieron sacar a los bebés de las incubadoras y colocarlos junto a sus madres?",
+        "answer_A": "Se incrementó la mortalidad entre los neófitos",
+        "answer_B": "No se hallaron diferencias significativas entre los bebés que estaban con sus madres y los que seguían en las incubadoras",
+        "answer_C": "Hallaron mejoras en diferentes aspectos de la salud de los bebés que estaban con sus madres",
+        "answer_D": "Las madres empeoraron porque no podían descansar",
+        "answer": 3
+    },
+    {
+        "question": "María es una bebé de 33 semanas de EGC que está iniciando la succión al pecho, ¿en qué momento se puede ofrecer esa succión?",
+        "answer_A": "Siempre antes de la toma.",
+        "answer_B": "Siempre después de la toma.",
+        "answer_C": "Siempre que María esté alerta y muestre deseo de succionar.",
+        "answer_D": "Siempre durante el canguro.",
+        "answer": 3
+    },
+    {
+        "question": "Ana no está extrayendo leche para su bebé gran prematuro, 'Juan':",
+        "answer_A": "Debería dar al menos 8 horas de la cantidad que Juan necesita en cada momento, para no tener sobrealimentación.",
+        "answer_B": "La mejor intervención sería la Hospitalaria de administrar dopaminas.",
+        "answer_C": "Debería considerar una producción adecuada y las necesidades de Juan, para asegurar una buena producción a largo plazo.",
+        "answer_D": "Hay que animarla a que duerma todo lo que pueda, para que esté emocionalmente a gusto.",
+        "answer": 3
+    },
+    {
+        "question": "¿Con qué edad gestacional (EG) se podría iniciar la suplementación oral con calostro?",
+        "answer_A": "Entre la 32 y 34 SEG",
+        "answer_B": "Antes de la 32 SEG",
+        "answer_C": "A partir de 34 SEG",
+        "answer_D": "No es un método de suplementación adecuado para los RNFT",
+        "answer": 1
+    },
+    {
+        "question": "¿Dónde nace el método madre canguro (MMC)?",
+        "answer_A": "México",
+        "answer_B": "Colombia",
+        "answer_C": "Suecia",
+        "answer_D": "Francia",
+        "answer": 2
+    }
+]

@@ -1,0 +1,210 @@
+[
+    {
+        "question": "La succión no nutritiva",
+        "answer_A": "Sirve para alimentarse",
+        "answer_B": "Muy típica de la succión madura",
+        "answer_C": "Es típica de los prematuros",
+        "answer_D": "Toman la teta de chupe",
+        "answer": 4
+    },
+    {
+        "question": "Acerca de la expresión anquiloglosia...",
+        "answer_A": "Es una limitación de la lengua que la mantiene anclada por la base al suelo de la boca y limita su movimiento",
+        "answer_B": "Es lo mismo que decir frenillo sublingual",
+        "answer_C": "Todos los frenillos tienen anquiloglosia",
+        "answer_D": "Correcto",
+        "answer": 1
+    },
+    {
+        "question": "Para retirar la pezonera",
+        "answer_A": "Hay que insistir en que coja el pecho porque está acostumbrado a la tetina de la pezonera",
+        "answer_B": "Es mejor probar a quitar las pezoneras en mitad de la toma o cuando el bebé está dormido",
+        "answer_C": "Si el pezón es plano, la talla de la pezonera será la pequeña",
+        "answer_D": "",
+        "answer": 2
+    },
+    {
+        "question": "Los hijos de las mujeres obesas tienen más riesgo de que se les administren suplementos en el hospital.",
+        "answer_A": "Verdadero",
+        "answer_B": "Falso",
+        "answer_C": "",
+        "answer_D": "",
+        "answer": 1
+    },
+    {
+        "question": "La 'anquiloglosia':",
+        "answer_A": "Limita la presión positiva",
+        "answer_B": "Limita el movimiento ondulante",
+        "answer_C": "Limita que la lengua se coloque en forma acanalada",
+        "answer_D": "Todas son correctas",
+        "answer": 3
+    },
+    {
+        "question": "A cual de los siguientes patrones de succion se refiere esta afirmación': Es una succión en laque el patron succion respiracion deglutinos 1-1.",
+        "answer_A": "Patron 1",
+        "answer_B": "Patron 2",
+        "answer_C": "Patron 3",
+        "answer_D": "Ninguna es correcta",
+        "answer": 1
+    },
+    {
+        "question": "El movimiento peristá'ltico':",
+        "answer_A": "Se hace con toda la lengua",
+        "answer_B": "Se hace con la parte anterior de la lengua",
+        "answer_C": "Se hace con la parte posterior de la lengua",
+        "answer_D": "",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué dice la AEPAP sobre la anquiloglosia?",
+        "answer_A": "Solo se cortan los frenillos en casos raros",
+        "answer_B": "Las intervenciones deberían hacerse entre los dos y tres años de edad",
+        "answer_C": "Ninguna es correcta",
+        "answer_D": "A y B son correctas",
+        "answer": 3
+    },
+    {
+        "question": "Los ejercicios de rehabilitación 'postoperatorial':",
+        "answer_A": "Son recomendables pero no imprescindibles",
+        "answer_B": "No deben realizarse durante las primeras 24 horas",
+        "answer_C": "Consisten en dar suaves toquecitos en la herida a partir de los 3 días tras la intervención",
+        "answer_D": "Todas son correctas",
+        "answer": 4
+    },
+    {
+        "question": "El pezón y la areola son sostenidos 'por':",
+        "answer_A": "Los labios y la lengua",
+        "answer_B": "Los labios",
+        "answer_C": "La lengua",
+        "answer_D": "",
+        "answer": 1
+    },
+    {
+        "question": "Bebé con dificultades de succión que ha perdido un 10% de su peso del nacimiento a los 3 días de vida. ¿Qué indicación sería preferible?",
+        "answer_A": "Suplementar con leche materna extraída y con la técnica dedo-jeringa",
+        "answer_B": "Suplementar con leche de fórmula y con la técnica dedo-jeringa",
+        "answer_C": "",
+        "answer_D": "",
+        "answer": 1
+    },
+    {
+        "question": "Los 'labios':",
+        "answer_A": "Sellan herméticamente para hacer presión positiva",
+        "answer_B": "Se evierten en la toma",
+        "answer_C": "Tienen unas tumefacciones llamadas Pars vellosa",
+        "answer_D": "Todas son correctas",
+        "answer": 4
+    },
+    {
+        "question": "¿Cuál es un síntoma de anquiloglosia?",
+        "answer_A": "Callo",
+        "answer_B": "Dolor",
+        "answer_C": "Asimetría facial",
+        "answer_D": "Todas son correctas",
+        "answer": 4
+    },
+    {
+        "question": "De estos motivos sólo uno es una indicación justificada de suplementar ¿Cuál es?",
+        "answer_A": "Bebé con peso 2.400g",
+        "answer_B": "Bebé con peso 4.100g",
+        "answer_C": "Bebé de 3 días que se queda dormido al pecho y patrón de succión débil",
+        "answer_D": "Bebé de 7 días que llora mucho",
+        "answer": 3
+    },
+    {
+        "question": "En la alimentación con biberón, la lengua hace movimientos peristálticos.",
+        "answer_A": "Verdadero",
+        "answer_B": "Falso",
+        "answer_C": "",
+        "answer_D": "",
+        "answer": 1
+    },
+    {
+        "question": "La succión no nutritiva",
+        "answer_A": "Sirve para alimentarse",
+        "answer_B": "Muy típica de la succión madura",
+        "answer_C": "Es típica de los prematuros",
+        "answer_D": "Toman la teta de chupe",
+        "answer": 2
+    },
+    {
+        "question": "La 'anquiloglosia':",
+        "answer_A": "Limita la presión positiva",
+        "answer_B": "Limita el movimiento ondulante",
+        "answer_C": "Limita que la lengua se coloque en forma acanalada",
+        "answer_D": "Todas son correctas",
+        "answer": 4
+    },
+    {
+        "question": "Señala la opción correcta.",
+        "answer_A": "En el futuro si un frenillo de tipo fibroso no se opera es seguro que ese niño tendrá problemas de dicción.",
+        "answer_B": "A veces la lengua con el tiempo y el alargamiento se puede flexibilizar y hablo buena movilidad puede que no haga falta operar.",
+        "answer_C": "Los tipos 3 y 4 no son necesarios de operar, casi todos tienen buena movilidad con osteopatía se puede solucionar.",
+        "answer_D": "La deglución atípica se da solo en frenillos anteriores o fibrosos.",
+        "answer": 2
+    },
+    {
+        "question": "Respecto a la suplementación con dedo-jeringa",
+        "answer_A": "Es útil si el bebé no tiene una succión eficaz para estimar el reflejo de succión",
+        "answer_B": "Es útil para administrar grandes cantidades",
+        "answer_C": "Las tomas no requieren mucho tiempo con este método",
+        "answer_D": "Es una forma de suplementar cómoda para hacerlo una sola persona",
+        "answer": 1
+    },
+    {
+        "question": "Respecto a la suplementación con 'relactor':",
+        "answer_A": "Es la opción más cómoda para todas las madres",
+        "answer_B": "Permite prescindir en mayor o medida del sacaleches en una relajación",
+        "answer_C": "A corta la duración de las tomas",
+        "answer_D": "Puede utilizarse aunque el bebé no tenga succión eficaz",
+        "answer": 2
+    },
+    {
+        "question": "Bebé de 25 días que consultan sus padres por llanto. Peso al nacer 3500g. Peso actual 3510g. Al preguntarles por las tomas te comentan que está todo el día al pecho. No puedeslotir porque llora. Succiona y al rato se duerme, pero si le intentan quitar el pecho se deprime. ¿Qué indicación te parece más adecuada en esta situación?",
+        "answer_A": "Continuar con el pecho a demanda. Es normal que un recién nacido llore al separarse de su madre.",
+        "answer_B": "Indicar suplemento de leche de fórmula. 30ml cada 3 horas.",
+        "answer_C": "Indicar suplemento de leche materna. Continuar con la lactancia a demanda y extracción entre tomas.",
+        "answer_D": "Indicar suplemento de leche 'materna': 30 ml 8 veces al día. Limitar las tomas y extracción después de la toma.",
+        "answer": 4
+    },
+    {
+        "question": "Señale la opción correcta",
+        "answer_A": "Para poder valorar un frenillo necesitamos sencillamente ver al niño llorar.",
+        "answer_B": "El tipo 1 es el que más problemas da en la lactancia.",
+        "answer_C": "El tipo 4 es el de menor gravedad.",
+        "answer_D": "Para valorar un frenillo hay que pasar una escala diagnóstica estandarizada y una vez sea diagnosticada se hace una valoración de la lactancia que nos hará saber si conviene derivarlo a cirugía o si puede solucionarse con medidas conservadoras.",
+        "answer": 4
+    },
+    {
+        "question": "Señala la afirmación correcta",
+        "answer_A": "Los niños se fatigan más con el pecho que con el biberón, sobre todo los que tienen problemas respiratorios",
+        "answer_B": "La succión de biberón hace que tengan los labios fruncidos y trabaje con el masetero",
+        "answer_C": "La succión masticatoria no es por el biberón sino por el frenillo",
+        "answer_D": "No es posible la confusión tetina pezón si se le dan bien los biberones o si se le da de manera muy esporádica",
+        "answer": 2
+    },
+    {
+        "question": "Si un bebé tiene dificultades en la succión hay que pensar en...",
+        "answer_A": "Prematuridad",
+        "answer_B": "Tipo de parto",
+        "answer_C": "Anomalías de la cavidad oral",
+        "answer_D": "Todas son correctas",
+        "answer": 4
+    },
+    {
+        "question": "La clasificación de Coryllos hace que distingamos los frenillos en...",
+        "answer_A": "Anteriores y posteriores",
+        "answer_B": "Fibrosos y submucosos",
+        "answer_C": "4 tipos donde el 1 y el 2 serían los submucosos",
+        "answer_D": "4 tipos en función de su posición anatómica",
+        "answer": 4
+    },
+    {
+        "question": "Señala la incorrecta",
+        "answer_A": "Los bebés al nacer tienen un paladar alto",
+        "answer_B": "Los bebés tienen retragancia fisiológica",
+        "answer_C": "Los bebés tienen una laringe más alta que sube con la deglución",
+        "answer_D": "Los bebés tienen fisiológicamente una fisura en el paladar",
+        "answer": 4
+    }
+]

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  /* Esto es importante para que el alto ocupe la pantalla completa */
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Conviertes todo el body en un contenedor flex que
+   ocupe el 100% de la pantalla */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to left, #4B507F, #0D1665);
+}
+
+/* #root sigue existiendo, pero ya no necesita height: 100%.
+   Aunque, si usas React y quieres mantener #root como “padre flex”,
+   puedes mover estos estilos de flex a #root en lugar de body */
+#root {
+  width: 100%;
+  /* height: 100%;  <-- Quitar (o min-height: 100% si prefieres) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Caja principal */
+.container {
+  width: 80%;
+  background: white;
+  border-radius: 10px;
+  padding: 30px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Resto de estilos */
+h1 {
+  font-size: 25px;
+  padding: 5px 0px;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+li {
+  font-size: 14px;
+  font-weight: 500;
+  list-style: none;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+li:hover {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.box_btn {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+button {
+  display: inline-block;
+  background-color: #0C0F57;
+  font-weight: bold;
+  color: white;
+  margin: 10px 0;
+  padding: 8px 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Clases de estado correcto/incorrecto */
+.correct {
+  background: #dffff2;
+  border-color: #00d397; 
+}
+
+.wrong {
+  background: #FFEBEB;
+  border-color: #FF4A4A;
+}

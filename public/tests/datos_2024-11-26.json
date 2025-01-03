@@ -1,0 +1,394 @@
+[
+    {
+        "question": "En relación a la muerte gestacional",
+        "answer_A": "Existe mucha información respecto a la lactancia materna sin bebé y se suele ofrecer.",
+        "answer_B": "La inhibición fisiológica no es posible tras la muerte neonatal.",
+        "answer_C": "Desde 2011 se puede donar leche a los bancos de leche humana en España.",
+        "answer_D": "No existen grupos de apoyo a la lactancia en duelo.",
+        "answer": 3
+    },
+    {
+        "question": "Respecto al tratamiento psicofarmacológico durante la lactancia materna.",
+        "answer_A": "Se deben evitar fármacos por riesgos importantes durante la lactancia materna.",
+        "answer_B": "La depresión posparto se pasa sola.",
+        "answer_C": "Suspender bruscamente e incesantemente la lactancia materna para iniciar un tratamiento no tiene riesgo en la salud mental.",
+        "answer_D": "No tratar farmacológicamente cuando no se asocia a mayor riesgo de recaídas o ingresos.",
+        "answer": 5
+    },
+    {
+        "question": "Durante una relajación, si el bebé no se agarra al 'pecho':",
+        "answer_A": "Las pezoneras pueden ayudar en cualquier momento",
+        "answer_B": "El contacto piel con piel es imprescindible",
+        "answer_C": "Esperaremos a que el bebé el que demuestre interés por el pecho",
+        "answer_D": "Todas son correctas",
+        "answer": 2
+    },
+    {
+        "question": "Señala cual de las siguientes es falsa",
+        "answer_A": "El embarazo tiene un efecto protector sobre la salud mental",
+        "answer_B": "1 de cada 5 mujeres experimenta un trastorno mental durante el embarazo y el primer año posparto",
+        "answer_C": "Durante el embarazo y el posparto se pueden iniciar síntomas psiquiátricos o descompensarse trastornos previos",
+        "answer_D": "Todas son falsas",
+        "answer": 1
+    },
+    {
+        "question": "Lactancia y placer",
+        "answer_A": "Sentir placer en el amamantamiento es un tema controversial, que mueve muchas emociones y solo lo he escuchado en vivo.",
+        "answer_B": "Hablar del placer de la lactancia ayuda a naturalizar esta parte de la sexualidad femenina.",
+        "answer_C": "El placer en lactancia no tiene nada que ver con el tabú del sexo.",
+        "answer_D": "Todas son correctas.",
+        "answer": 4
+    },
+    {
+        "question": "¿Por qué se representaron a menudo a dioses amamantando en las civilizaciones clásicas y epigráficas?",
+        "answer_A": "Se trata de una representación de un arte femenino ritualizado a la diosa.",
+        "answer_B": "Para unir a los dioses con los seres de la tierra a través del amamantamiento.",
+        "answer_C": "Porque se pensaba que la leche era capaz de transmitir las características de la madre, entre ellas la divinidad.",
+        "answer_D": "Como mandato divino de la lactancia hacia las mujeres.",
+        "answer": 3
+    },
+    {
+        "question": "Según la última resolución de 2018, ¿cuáles datos debe dar una persona adolecente?",
+        "answer_A": "Se solicita una autorización para su salida.",
+        "answer_B": "Se solicita un atributo válido que tenga por soporte el salario mínimo interprofesional (SMI).",
+        "answer_C": "Se solicita una autorización firmada y sellada de los representantes de los menores.",
+        "answer_D": "Ninguna es correcta.",
+        "answer": 2
+    },
+    {
+        "question": "¿En qué momento de la historia tenemos las primeras referencias de la figura de la nodriza?",
+        "answer_A": "En el antiguo Egipto",
+        "answer_B": "En las civilizaciones de mesopotámicas y babilónicas",
+        "answer_C": "En la China Imperial",
+        "answer_D": "En la Cultura Maya.",
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál de las siguientes opciones es correcta sobre el procesamiento de datos?",
+        "answer_A": "Una actividad que no compromete productos personales dentro de la ley vigente y cumple la ley.",
+        "answer_B": "Los datos personales se pueden usar sin consentimiento de su dueño.",
+        "answer_C": "El tipo de datos que se pueden procesar son todos sin restricciones.",
+        "answer_D": "Es un derecho que tiene el dueño de los datos de conocer cómo están siendo tratados sus datos personales.",
+        "answer": 4
+    },
+    {
+        "question": "En qué momento de la historia tenemos las primeras referencias de la figura de la novia?",
+        "answer_A": "En el antiguo Egipto",
+        "answer_B": "En la civilización de mesopotámica y babilónica",
+        "answer_C": "En la China imperial",
+        "answer_D": "",
+        "answer": 1
+    },
+    {
+        "question": "El amamantar es un proceso doloroso porque...",
+        "answer_A": "Se tiene que acostumbrar al pecho.",
+        "answer_B": "Si duele el pecho cuando se le intentan morder.",
+        "answer_C": "El cuerpo de la mujer no está preparado para este proceso.",
+        "answer_D": "Todas son falsas.",
+        "answer": 4
+    },
+    {
+        "question": "Lactancia como proceso sexual.",
+        "answer_A": "La lactancia no tiene nada que ver con la sexualidad.",
+        "answer_B": "La lactancia dificulta las relaciones sexuales en la pareja.",
+        "answer_C": "La lactancia bloquea la fertilidad.",
+        "answer_D": "El amamantamiento puede producir placer e incluso llegar a producir un orgasmo.",
+        "answer": 4
+    },
+    {
+        "question": "Para la titulación de 'suplemento':",
+        "answer_A": "Se puede quitar el suplemento de pago",
+        "answer_B": "A partir de la mesa se puede sustituir el suplemento por atenciones complementarias",
+        "answer_C": "El después de dos semestres no gana el peso adecuado, se ofrecerá más pochoy para continuar con su pie",
+        "answer_D": "Todas son correctas",
+        "answer": 4
+    },
+    {
+        "question": "Cuando hablamos de seguridad hablamos de...",
+        "answer_A": "Relaciones sexuales.",
+        "answer_B": "Vinculación directa, rítmica, armónica y reproducción.",
+        "answer_C": "Perturbaciones, directos, fantasías y actitudes.",
+        "answer_D": "Todas son correctas.",
+        "answer": 4
+    },
+    {
+        "question": "En la valoración y plan de tratamiento de un trastorno mental perinatal.",
+        "answer_A": "Es importante realizar una valoración médica y realizar una analítica con niveles de hormonas tiroides y hierro.",
+        "answer_B": "El abordaje del insomnio es prioritario.",
+        "answer_C": "No hay que explorar el acompañamiento familiar, nos debemos centrar en la madre.",
+        "answer_D": "No existe riesgo de suicidio intencionado, por lo que no hay que preguntar.",
+        "answer": 1
+    },
+    {
+        "question": "El trastorno bipolar",
+        "answer_A": "No tiene relación con la vida reproductiva de la mujer",
+        "answer_B": "El postparto es el período de mayor riesgo de recaída en las mujeres",
+        "answer_C": "La suspensión del tratamiento durante el embarazo es mejor realizarla rápidamente",
+        "answer_D": "Las psicosis puerperal no se relacionan con recaídas de trastorno bipolar",
+        "answer": 2
+    },
+    {
+        "question": "El planteamiento 'mamario':",
+        "answer_A": "Se puede producir por una saturación de corneas.",
+        "answer_B": "La única forma de eliminarlo es destilando.",
+        "answer_C": "A y B son falsas.",
+        "answer_D": "A y B son correctas.",
+        "answer": 3
+    },
+    {
+        "question": "En una introducción a la lactancia",
+        "answer_A": "No es posible la lactancia materna exclusiva",
+        "answer_B": "No se produce calostro",
+        "answer_C": "Es imprudente empezar a menos 3 meses antes del parto",
+        "answer_D": "Todas son correctas",
+        "answer": 2
+    },
+    {
+        "question": "Según la norma resolución de 2013, ¿cuáles datos deben darse de alta como autónomos?",
+        "answer_A": "Se habilita un producto básico como opción de la tarifa social (menor de 30).",
+        "answer_B": "Se habilita un producto básico como opción de la tarifa social (menor de 30).",
+        "answer_C": "Se habilita una posibilidad de trabajar en independencia de los signos.",
+        "answer_D": "Se habilita un producto básico como opción de la tarifa social (menor de 30).",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué requisitos debería cumplir la empresa para asegurar una licencia para proporcionar/transferir y poder emitir facturas legítimas?",
+        "answer_A": "Dado que la empresa está registrada, debe realizar el alta de Hacienda, registrarse en la Licencia Marina y tener firmada la Ley de Protección de Datos.",
+        "answer_B": "Debe estar dada de alta en Hacienda, Ley de Protección de Datos y copia de responsabilidad civil.",
+        "answer_C": "Ley de Protección de Datos, lograr la protección del alta civil y otros asuntos.",
+        "answer_D": "Ley de Protección de Datos, Registro en la Licencia Marina, tener alta en otros asuntos y lograr la responsabilidad civil.",
+        "answer": 2
+    },
+    {
+        "question": "La extracción 'poderosa':",
+        "answer_A": "Es la mejor forma de estimular la producción",
+        "answer_B": "Sirve para detectar una hipoglucemia",
+        "answer_C": "No requiere mucho esfuerzo por parte de la madre",
+        "answer_D": "Todas son correctas",
+        "answer": 4
+    },
+    {
+        "question": "Para estimular la producción de 'leche':",
+        "answer_A": "Estimulamos en las contracciones de forma paralela a la retirada de suplemento.",
+        "answer_B": "Las extracciones son de 10 minutos por cada 15 si se realizan de oblea y cada 3 horas.",
+        "answer_C": "Explicaciones antes de impuir la retirada de suplemento.",
+        "answer_D": "A y B son correctas.",
+        "answer": 4
+    },
+    {
+        "question": "El acceso al tratamiento en salud mental perinatal se caracteriza por",
+        "answer_A": "Falta de recursos especializados",
+        "answer_B": "Atribución de los síntomas al embarazo, a causas externas o al postpartum",
+        "answer_C": "Se desconoce la posibilidad de compaginar el tratamiento farmacológico con la lactancia",
+        "answer_D": "Se prima el cuidado del lactante sobre la salud mental materna",
+        "answer": 5
+    },
+    {
+        "question": "¿Dónde surgió por primera vez la figura de la asesoría de lectura?",
+        "answer_A": "En Chicago en 1976 en la Liga de la Leche",
+        "answer_B": "En Nueva York en 1984 con la organización BLC",
+        "answer_C": "En Nueva York en 1984 con la Leche",
+        "answer_D": "",
+        "answer": 1
+    },
+    {
+        "question": "¿Está influyendo el mundo digital en la lactancia?",
+        "answer_A": "Sí, porque las madres tienen acceso a más información y apoyo",
+        "answer_B": "Está influyendo negativamente ya que las madres se hacen un lío con toda la información que circula por las redes",
+        "answer_C": "Sí, porque se visibiliza la lactancia en público",
+        "answer_D": "No, en realidad esto no es real",
+        "answer": 1
+    },
+    {
+        "question": "Lactancia en 'Instituto':",
+        "answer_A": "Dar el pecho es una conducta que toda mujer debe saber hacer de manera instintiva.",
+        "answer_B": "Los bebés cuando nacen saben mamar de manera instintiva.",
+        "answer_C": "Las mujeres aprendemos a dar de mamar a través de la observación, lo que sugiere un problema en una sociedad donde dar el pecho no tiene un proyecto y no se entuba.",
+        "answer_D": "La 1 y la 2 son correctas.",
+        "answer": 4
+    },
+    {
+        "question": "¿Cómo se debe manejar la lactancia después de la pérdida?",
+        "answer_A": "No hay que hacer nada, no habrá consecuencias.",
+        "answer_B": "Informar de las opciones: inhibidor farmacológico de la lactancia, inhibición natural de la lactancia a través del Factor Inhibidor de Lactancia o donación de leche materna.",
+        "answer_C": "Dar un inhibidor farmacológico y vender las pechos.",
+        "answer_D": "Correcto",
+        "answer": 2
+    },
+    {
+        "question": "Algunas de las respuestas habrán respondido para ser analizadas en la lección ser...",
+        "answer_A": "Tienes razón",
+        "answer_B": "No es correcto",
+        "answer_C": "Es posible",
+        "answer_D": "No tengo idea",
+        "answer": 1
+    },
+    {
+        "question": "¿Por qué supuso un aumento de la mortalidad infantil la aparición y uso de las primeras leches artificiales?",
+        "answer_A": "Porque se preparaban con agua hirviendo.",
+        "answer_B": "Porque no se limpiaban los biberones.",
+        "answer_C": "Porque las fórmulas que seleccionaron al mercado inicialmente carecían de muchos nutrientes necesarios para los bebés.",
+        "answer_D": "El uso de las primeras fórmulas no supuso un aumento en la mortalidad infantil.",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué competencias básicas debemos tener como asesores de lactancia?",
+        "answer_A": "Decirle lo que nosotros hubiésemos hecho.",
+        "answer_B": "Escuchar activa, empáticamente, razonando y respetando.",
+        "answer_C": "Imponer nuestras creencias.",
+        "answer_D": "Dar información sin considerar la situación.",
+        "answer": 2
+    },
+    {
+        "question": "Durante una relactación, el bebé no agarra el 'pecho':",
+        "answer_A": "Las personas pueden ayudar en cualquier momento",
+        "answer_B": "El contacto piel con piel es importante",
+        "answer_C": "Explicaremos a qué se debe el bebé el que demuestra interés por el pecho",
+        "answer_D": "Todos son correctas",
+        "answer": 4
+    },
+    {
+        "question": "Una mujer te consulta porque quiere relactar a su bebé. ¿Qué le preguntarías?",
+        "answer_A": "¿Cómo fue el parto?",
+        "answer_B": "¿Qué cantidad de suplemento toma?",
+        "answer_C": "¿Cómo fue el plano?",
+        "answer_D": "Todas las anteriores son correctas",
+        "answer": 4
+    },
+    {
+        "question": "Durante una relajación, si el bebé se agarra al 'pecho':",
+        "answer_A": "Empezaremos con estimulación con sacaleches y a dos días comenzamos el retiro de suplemento.",
+        "answer_B": "Incentivamos a que agarre y toque del biberón y le recomendamos una lactancia frecuente.",
+        "answer_C": "Recomendamos no evitar chupetes y tetinas, y dormir con el bebé.",
+        "answer_D": "Todos son correctos.",
+        "answer": 4
+    },
+    {
+        "question": "Para acompañar a una mujer que ha sufrido una pérdida perinatal, ¿qué se considera correcto?",
+        "answer_A": "Es recomendable decirle que no se preocupe, que ya tendrá otro bebé.",
+        "answer_B": "Debemos animarla a olvidar al bebé.",
+        "answer_C": "Debemos legitimar su dolor escuchándola sin juzgarla.",
+        "answer_D": "La culpa es una forma de buscar el control, mientras que el duelo para la madre.",
+        "answer": 3
+    },
+    {
+        "question": "¿Cuál de los siguientes motivos se apunta como una de las causas de las bajas tasas de lactancia materna en la población afroamericana de Estados Unidos?",
+        "answer_A": "Las tasas de lactancia son similares a las de las familias caucásicas.",
+        "answer_B": "Porque tradicionalmente se piensa que los bebés afroamericanos engordan mejor con leche artificial.",
+        "answer_C": "Uno espera este comportamiento social derivado de los estilos afroamericanos para amamantar a los bebés, pero los mismos son gran obligados a abandonar a sus propios bebés.",
+        "answer_D": "",
+        "answer": 2
+    },
+    {
+        "question": "Selecciona la INCORRECTA",
+        "answer_A": "En la GUAL debe haber siempre al menos dos elementos de la situación.",
+        "answer_B": "Visita las áreas de la lectura directa para algo tener participación en esto.",
+        "answer_C": "En GUAL, no te permite la elección de hombres.",
+        "answer_D": "Surtir grupos de poco tamaño a medida.",
+        "answer": 3
+    },
+    {
+        "question": "¿En qué momento de la historia tenemos las primeras referencias de la figura de la rodilla?",
+        "answer_A": "En el antiguo Egipto",
+        "answer_B": "En las civilizaciones mesopotámicas y babilónicas",
+        "answer_C": "En la China imperial",
+        "answer_D": "",
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es la afirmación correcta sobre la autorización de acceso a datos personales?",
+        "answer_A": "No contar con medidas técnicas y programáticas de seguridad adecuadas.",
+        "answer_B": "No lograr la autorización de acceso a los mismos.",
+        "answer_C": "Todo está correcto.",
+        "answer_D": "",
+        "answer": 2
+    },
+    {
+        "question": "El hábitat natural de una cría cuando nace 'es':",
+        "answer_A": "Una tuna.",
+        "answer_B": "Los brazos de cualquier persona.",
+        "answer_C": "El cuerpo de su madre.",
+        "answer_D": "No hay hábitat natural en los humanos.",
+        "answer": 3
+    },
+    {
+        "question": "Los trastornos mentales perinatales",
+        "answer_A": "Son la causa más frecuente de dificultades en la atención.",
+        "answer_B": "Son causa frecuente de desiertos tempranos.",
+        "answer_C": "Ante cualquier dificultad en lactancia en el posparto se recomienda un screening del estado de ánimo.",
+        "answer_D": "Es importante poner el foco en la madre que no encuentra los apoyos que necesita en la lactancia, ya que presentan el doble de riesgo de deprimirse que aquellas que lograron directamente por la lactancia artificial.",
+        "answer": 5
+    },
+    {
+        "question": "La PMA organiza formación en tareas dirigidas 'a':",
+        "answer_A": "Personal sanitario en ámbito de la salud Móvil y PCD.",
+        "answer_B": "Personal sanitario que trabaja con instituciones en territorio nacional.",
+        "answer_C": "Personal sanitario especializado.",
+        "answer_D": "A y C son correctas.",
+        "answer": 4
+    },
+    {
+        "question": "¿Cuál era el motivo fundamental por el que las mujeres de la alta sociedad enviaban a sus hijos con una nodriza entre los siglos XVIII y XIX?",
+        "answer_A": "Porque necesitaban recuperar la fertilidad y la posibilidad de un nuevo embarazo pronto",
+        "answer_B": "Porque estaba mal visto que la madre amamantase a sus propios bebés",
+        "answer_C": "Para preservar su belleza y salud",
+        "answer_D": "Todas las anteriores son correctas",
+        "answer": 4
+    },
+    {
+        "question": "Respecto a las consecuencias de los trastornos mentales perinatales no tratados",
+        "answer_A": "Se han observado mayores dificultades para vincularse al bebé",
+        "answer_B": "Se relacionan con más dificultades para establecer y mantener la lactancia materna",
+        "answer_C": "Se han observado mayores tasas de complicaciones obstétricas como parto prematuro y bajo peso al nacer",
+        "answer_D": "Se relaciona con menos cuidados y peor control durante el embarazo",
+        "answer": 5
+    },
+    {
+        "question": "El MELA es un fármaco anticonceptivo",
+        "answer_A": "Siempre",
+        "answer_B": "Durante los primeros 6 meses de lactancia.",
+        "answer_C": "Hasta que tenga la primera menstruación.",
+        "answer_D": "Ninguna es correcta.",
+        "answer": 2
+    },
+    {
+        "question": "¿Por qué supuso la Revolución Industrial una disminución en el número de noticias disponibles?",
+        "answer_A": "Porque la contaminación producida por las fábricas hacía que enfermasen muchas.",
+        "answer_B": "Muchas de las mujeres que trabajaban en el campo hacían migrar a las ciudades y se convirtieron en empleadas en fábricas.",
+        "answer_C": "Propuso que las ciudades creyeran una red más complicada para encontrar una noticia.",
+        "answer_D": "La Revolución Industrial supuso una disminución en el número de noticias.",
+        "answer": 2
+    },
+    {
+        "question": "Algunas preguntas para un BCI...",
+        "answer_A": "Ser experto y tener información de calidad de forma específica.",
+        "answer_B": "Ser constante en la búsqueda y tener experiencia valiosa con resultados.",
+        "answer_C": "Hacer un ensayo técnico de dificultad intermedia.",
+        "answer_D": "A y C son correctas.",
+        "answer": 4
+    },
+    {
+        "question": "La posición puerperal",
+        "answer_A": "Se inicia de manera lenta y progresiva",
+        "answer_B": "Es más frecuente a los 6 meses postparto",
+        "answer_C": "Si la madre ingresa y desea mantener la lactancia materna, se recomienda apoyo, que le pueden Revar al bebé, que le faciliten el uso de sacaleches.",
+        "answer_D": "El riesgo de suicidio e infanticidio se asocia exclusivamente a la depresión postparto",
+        "answer": 3
+    },
+    {
+        "question": "La lactancia materna es sexual 'porque':",
+        "answer_A": "Es evolución afectiva.",
+        "answer_B": "Produce placer.",
+        "answer_C": "Se relaciona con la atención.",
+        "answer_D": "Todas son correctas.",
+        "answer": 4
+    },
+    {
+        "question": "La instrucción podrí'a':",
+        "answer_A": "Es la mejor forma de estimular la producción",
+        "answer_B": "Servir para crear una hipoglucemia",
+        "answer_C": "No requiere mucho esfuerzo por parte de la madre",
+        "answer_D": "Toda son correctas",
+        "answer": 1
+    }
+]

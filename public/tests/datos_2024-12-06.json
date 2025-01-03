@@ -1,0 +1,194 @@
+[
+    {
+        "question": "El sueño de un bebé de 6 meses es:",
+        "answer_A": "Urbano",
+        "answer_B": "Ciclando",
+        "answer_C": "Mínimo",
+        "answer_D": "Duerme entre 14-20 horas.",
+        "answer": 4
+    },
+    {
+        "question": "Un último vigilante suele ser definido principalmente por la relación armónica de varios 'factores':",
+        "answer_A": "Social, tecnología y cultural",
+        "answer_B": "Biológico, contextual, psicosocial y tecnológico",
+        "answer_C": "Tecnológico, biológico, alimentario y contextual",
+        "answer_D": "Psicosocial, estructural y biológico",
+        "answer": 2
+    },
+    {
+        "question": "Si durante la ausencia de la madre, el bebe no quiere 'comer':",
+        "answer_A": "Debemos derivar a pediatría para analítica",
+        "answer_B": "Es normal, debemos tener paciencia",
+        "answer_C": "Debemos dar lactancia a demanda para que recupere lo que no ha comido en esas horas.",
+        "answer_D": "A y C son correctas",
+        "answer": 4
+    },
+    {
+        "question": "Los niños y niñas deben ser alimentados en la escuela infantil cuando y cómo lo necesiten.",
+        "answer_A": "Falso",
+        "answer_B": "Verdadero",
+        "answer_C": "",
+        "answer_D": "",
+        "answer": 2
+    },
+    {
+        "question": "No hay ningún documento que justifique que una escuela infantil se niegue a facilitar la lactancia materna.",
+        "answer_A": "Verdadero",
+        "answer_B": "Falso",
+        "answer_C": "",
+        "answer_D": "",
+        "answer": 1
+    },
+    {
+        "question": "Marca la respuesta correcta",
+        "answer_A": "La fase REM dura aproximadamente 6 horas en el conjunto total de sueño de una noche.",
+        "answer_B": "En la fase N1 del sueño dentro de la fase REM encontramos los consorcios complejos K.",
+        "answer_C": "En la fase REM las ondas cerebrales tienen gran amplitud y alta frecuencia.",
+        "answer_D": "Durante la fase REM el tronco cerebral inactiva toda la musculatura del cuerpo excepto la de los ojos.",
+        "answer": 4
+    },
+    {
+        "question": "Señala la respuesta INCORRECTA.",
+        "answer_A": "Los bebés duermen en el dorso de la madre y presentan tres fases de sueño.",
+        "answer_B": "Los fetos comienzan a dormir una vez han iniciado, antes de dedicarse a ensayar el sueño futuro.",
+        "answer_C": "Los fetos pasan a través de fases de sueño tranquilo, activo e indeterminado cada 70-90 minutos.",
+        "answer_D": "Cuando nacen y hasta los tres meses de vida aproximadamente, eliminan su sueño directamente en fase REM.",
+        "answer": 2
+    },
+    {
+        "question": "La dicea esenta interna",
+        "answer_A": "Si, pueden tener tratos sin problemas",
+        "answer_B": "Es muy limitada",
+        "answer_C": "Con hortaliza una verna se deben rogar grandes cambios significativos",
+        "answer_D": "Si la alergo empresa con IAC la madre siempre deberá hacer densa",
+        "answer": 2
+    },
+    {
+        "question": "Se consulta una mujer porque ha visto un cambio en la piel de su hijo. ¿Qué no nos haría sospechar de alergia?",
+        "answer_A": "Micosis",
+        "answer_B": "Infecciones virales",
+        "answer_C": "Pápulas negras",
+        "answer_D": "Sangre",
+        "answer": 4
+    },
+    {
+        "question": "Dentro de los paradigmas básicos de condicionamiento de Tarpy, en el 'entrenamiento por omisión'?",
+        "answer_A": "El espejito no consiguió lo que necesita aunque haga lo que los padres desean.",
+        "answer_B": "Es un castigo encubierto.",
+        "answer_C": "El bebé no consigue lo que quiere o no hace lo que los padres quieren que haga.",
+        "answer_D": "Ninguna de las anteriores.",
+        "answer": 4
+    },
+    {
+        "question": "Dentro de la patología del sueño infantil, podemos 'encontrar':",
+        "answer_A": "Brokuno",
+        "answer_B": "Reflujo gastroesofágico",
+        "answer_C": "Somnabulismo",
+        "answer_D": "Jacitato capitis",
+        "answer": 2
+    },
+    {
+        "question": "La información a la letra (refiérete a la FALSA):",
+        "answer_A": "Es desaconsejable raras en tubos",
+        "answer_B": "La leche humana es muy rica en lactosa",
+        "answer_C": "No se puede tener ningún producto lácteo",
+        "answer_D": "Puede causar dolor o diarrea",
+        "answer": 3
+    },
+    {
+        "question": "El escaldado de la leche hace que...",
+        "answer_A": "Sea muy fácil congelar la leche",
+        "answer_B": "No se active la lipasa",
+        "answer_C": "La leche conserve mejor las propiedades",
+        "answer_D": "",
+        "answer": 2
+    },
+    {
+        "question": "Señala la respuesta correcta.",
+        "answer_A": "Al igual que dos aves anidan, asumimos con el cerdo pequeño.",
+        "answer_B": "Al tener que despertar varias veces para poder mamar, los bebés duermen poco y se sienten más por el peso corporal.",
+        "answer_C": "Al leer, asumimos los niveles de práctica de la madre, lo que hace incrementar la producción para la vida de los productos primarios.",
+        "answer_D": "Hemos prevenido problemas como la maternidad o la paternidad, manteniendo un ritmo claramente acorde a la hora del sol.",
+        "answer": 4
+    },
+    {
+        "question": "En alergias nutri mediadas",
+        "answer_A": "Se generan autoanticuerpos",
+        "answer_B": "Las reacciones son habitualmente graves",
+        "answer_C": "Suele ser inmediata",
+        "answer_D": "Fácil son controlar",
+        "answer": 2
+    },
+    {
+        "question": "La intolerancia es la dificultad para absorber/'digerir':",
+        "answer_A": "Azúcares",
+        "answer_B": "Proteínas",
+        "answer_C": "Las dos son correctas",
+        "answer_D": "Incorrectas",
+        "answer": 3
+    },
+    {
+        "question": "¿Cuánto tiempo conserva la leche recién extraída sus propiedades a temperatura ambiente?",
+        "answer_A": "Un máximo de 6 horas",
+        "answer_B": "Hasta 12 horas",
+        "answer_C": "24 horas",
+        "answer_D": "Varios días",
+        "answer": 1
+    },
+    {
+        "question": "Dentro de los paradigmas básicos de condicionamiento de Tarya, en el 'entrenamiento por ensayos'?",
+        "answer_A": "El papel no consigue lo que necesita aunque haga lo que padres desean.",
+        "answer_B": "Es un catálogo valioso.",
+        "answer_C": "El niño no consigue lo que quiere aunque haga lo que padres quieren que haga.",
+        "answer_D": "Ninguna de las anteriores.",
+        "answer": 3
+    },
+    {
+        "question": "¿En qué envases podemos ofrecer la leche en ausencia de la madre?",
+        "answer_A": "Dedos-jeringa, dedo-sonda, relactor",
+        "answer_B": "Vaso, biberón",
+        "answer_C": "Biberón-cuchara, vaso de aprendizaje",
+        "answer_D": "Todas son correctas",
+        "answer": 4
+    },
+    {
+        "question": "El concepto 'número' está caracterizado 'por':",
+        "answer_A": "Ser muy manipuladores.",
+        "answer_B": "Ser transaccionadores.",
+        "answer_C": "Se adaptan bien a cualquier situación.",
+        "answer_D": "A y C son correctas.",
+        "answer": 4
+    },
+    {
+        "question": "Para extraer leche con mayor facilidad",
+        "answer_A": "Entre toma y toma",
+        "answer_B": "Durante una toma",
+        "answer_C": "De madrugada",
+        "answer_D": "A primera hora de la mañana",
+        "answer": 5
+    },
+    {
+        "question": "La reacción alérgica de al contacto, ingestión o inhalación frente 'a':",
+        "answer_A": "Alergias",
+        "answer_B": "Los dos son correctas",
+        "answer_C": "Correctas",
+        "answer_D": "",
+        "answer": 2
+    },
+    {
+        "question": "Cuando estamos despiertos, el cerebro está inundado principalmente 'por':",
+        "answer_A": "Tropifano",
+        "answer_B": "Serotonina",
+        "answer_C": "Melatonina",
+        "answer_D": "Prolactina",
+        "answer": 2
+    },
+    {
+        "question": "¿En qué envases podemos ofrecer el leche en ausencia de la madre?",
+        "answer_A": "Dedos-jeringa, dedo-sonda, recetador",
+        "answer_B": "Vaso, biberón",
+        "answer_C": "Biberón-cuchara, vaso de aprendizaje",
+        "answer_D": "Todas son correctas",
+        "answer": 4
+    }
+]

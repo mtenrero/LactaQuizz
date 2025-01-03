@@ -1,0 +1,114 @@
+[
+    {
+        "question": "En el posparto, el apoyo emocional a la madre es fundamental 'para':",
+        "answer_A": "Evitar el cansancio extremo.",
+        "answer_B": "Que la lactancia se establezca más fácilmente.",
+        "answer_C": "Prevenir la depresión posparto.",
+        "answer_D": "Todas son correctas.",
+        "answer": 4
+    },
+    {
+        "question": "Si la madre decide destetar, el padre/'pareja':",
+        "answer_A": "Debe apartarse de la situación y respetar la decisión.",
+        "answer_B": "No debe influenciar a la madre en ningún sentido, solamente apoyarla.",
+        "answer_C": "Es parte fundamental en la decisión.",
+        "answer_D": "No puede participar en las estrategias que se sigan.",
+        "answer": 2
+    },
+    {
+        "question": "Respecto al papel del padre/pareja en la 'lactancia':",
+        "answer_A": "No se podría establecer sin su soporte emocional y logístico",
+        "answer_B": "El apoyo es fundamental, sin embargo, la lactancia también podrá salir adelante en muchos casos sin este",
+        "answer_C": "Excepto amamantar, el padre/pareja podrá atender al bebé en todas las demás formas posibles",
+        "answer_D": "B y C son ciertas",
+        "answer": 4
+    },
+    {
+        "question": "Si la madre decide destetar, el padre/'pareja':",
+        "answer_A": "Debe apartarse de la situación y respetar la decisión.",
+        "answer_B": "No debe influenciar a la madre en ningún sentido, solamente apoyar.",
+        "answer_C": "Es parte fundamental en la decisión.",
+        "answer_D": "No puede participar en las estrategias que se sigan.",
+        "answer": 2
+    },
+    {
+        "question": "Si el padre/pareja se implica en un rol de 'cuidado':",
+        "answer_A": "Su cerebro responderá a las necesidades del bebé igual que el cerebro de la madre.",
+        "answer_B": "Su cerebro responderá a las necesidades del bebé pero siempre en menor medida que el cerebro de la madre.",
+        "answer_C": "Su cerebro no cambiará, pero podrá aprender a cuidar al bebé igual que la madre por intuición.",
+        "answer_D": "A y C son correctas.",
+        "answer": 4
+    },
+    {
+        "question": "En el posparto, el apoyo emocional a la madre es fundamental 'para':",
+        "answer_A": "Evitar el cansancio extremo.",
+        "answer_B": "Que la lactancia se establezca más fácilmente.",
+        "answer_C": "Prevenir la depresión posparto.",
+        "answer_D": "Todos son correctas.",
+        "answer": 4
+    },
+    {
+        "question": "El tipo de apego que el padre haya recibido",
+        "answer_A": "Nunca será condicionante en la lactancia",
+        "answer_B": "Se reflejará de alguna forma en la manera de crar y llevar la lactancia",
+        "answer_C": "Puede ocasionar problemas en el padre pero no en la lactancia",
+        "answer_D": "Si hay trauma infantil, siempre aparecerá durante el posparto",
+        "answer": 2
+    },
+    {
+        "question": "Con la implicación del padre en la crianza y la lactancia, los niveles de 'oxitocina':",
+        "answer_A": "Suben en cuanto nace el bebé y tiene contacto con él y se mantienen.",
+        "answer_B": "En el padre, a diferencia de la madre, no hay un variado sustancial en los niveles de oxitocina tanto si se implica como si no.",
+        "answer_C": "Tienden a bajar durante el posparto y después suben si se implica en los cuidados.",
+        "answer_D": "Bajan cuando tiene participación activa en la lactancia.",
+        "answer": 3
+    },
+    {
+        "question": "El papel del padre/pareja en la lactancia materna",
+        "answer_A": "Es secundario pero proactivo",
+        "answer_B": "Es auxiliar y en segundo plano",
+        "answer_C": "No es protagonista, pero sí fundamental",
+        "answer_D": "Todas son correctas.",
+        "answer": 3
+    },
+    {
+        "question": "La pareja en la 'lactancia':",
+        "answer_A": "En un primer momento los dos deben centrarse en el cuidado del bebé y la lactancia y después retomar el cuidado de la pareja.",
+        "answer_B": "La fractura de la pareja durante el posparto puede aparecer años después si no se trabaja a tiempo.",
+        "answer_C": "Existe un hándicap biológico en el hombre que puede dificultar la vuelta de las relaciones sexuales.",
+        "answer_D": "B y C son correctas.",
+        "answer": 4
+    },
+    {
+        "question": "El tipo de apego que el padre haya recibido",
+        "answer_A": "Nunca será condicionante en la lactancia",
+        "answer_B": "Se reflejará de alguna forma en la manera de criar y llevar la lactancia",
+        "answer_C": "Puede ocasionar problemas en el padre pero no en la lactancia",
+        "answer_D": "Si hay trauma infantil, siempre aparecerá durante el posparto.",
+        "answer": 2
+    },
+    {
+        "question": "La pareja en la 'lactancia':",
+        "answer_A": "En un primer momento los dos deben centrarse en el cuidado del bebé y la lactancia y después retomar el cuidado de la pareja.",
+        "answer_B": "La fractura de la pareja durante el posparto puede aparecer años después si no se trabaja a tiempo.",
+        "answer_C": "Existe un handicap biológico en el hombre que puede dificultar la vuelta de las relaciones sexuales.",
+        "answer_D": "B y C son correctas.",
+        "answer": 4
+    },
+    {
+        "question": "El papel del padre/pareja en la lactancia materna",
+        "answer_A": "Es secundario pero proactivo",
+        "answer_B": "Es auxiliar y en segundo plano",
+        "answer_C": "No es protagonista, pero sí fundamental",
+        "answer_D": "Todas son correctas",
+        "answer": 4
+    },
+    {
+        "question": "Los padres/parejas que ejercen de cuidadores primarios junto con la madre",
+        "answer_A": "Experimentan un incremento en la activación de la amígdala y también en el surco temporal inferior (STS)",
+        "answer_B": "Experimentan un incremento en la activación de la amígdala y un descenso en la activación del surco temporal inferior (STS)",
+        "answer_C": "Se produce una conectividad entre la amígdala y el surco temporal superior (STS)",
+        "answer_D": "A y C son correctas.",
+        "answer": 4
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "question": "Señala la respuesta INCORRECTA",
+        "answer_A": "La ejercicio patológica se da en las primeras 24 h de vida",
+        "answer_B": "La técnica fisiológica disminuye a partir del 3er día de vida",
+        "answer_C": "La lesión por lactancia materna inicia a partir de la segunda semana de vida",
+        "answer_D": "La lesión por lactancia materna puede durar hasta 3 meses",
+        "answer": 2
+    },
+    {
+        "question": "Un bebé de 60 días, hace 3 días que no presenta deposiciones. Señala la verdadera.",
+        "answer_A": "Es probable que no esté alimentándose bien",
+        "answer_B": "Está vomitando",
+        "answer_C": "Es normal, a partir de los 60 días se pueden hacer cada dos días",
+        "answer_D": "Inversión",
+        "answer": 1
+    },
+    {
+        "question": "Un bebé tiene un mes de vida que está amarillento.",
+        "answer_A": "Recibe exposición solar al menos 15 minutos y tres veces al día.",
+        "answer_B": "Es vital alimentarlo con leche materna, hay que descartar enfermedad hepática.",
+        "answer_C": "Es vital alimentarlo con leche materna, sería conveniente suspender la lactancia de forma temporal para comprobar que baja los bilirrubinas.",
+        "answer_D": "Es importante realizar un examen físico para evaluar otros factores.",
+        "answer": 2
+    }
+]

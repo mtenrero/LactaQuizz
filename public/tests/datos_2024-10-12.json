@@ -1,0 +1,138 @@
+[
+    {
+        "question": "¿Qué tipo de alimentación se relaciona más con el ciclo del lactante?",
+        "answer_A": "Lactancia materna exclusiva.",
+        "answer_B": "Lactancia mixta.",
+        "answer_C": "Lactancia artificial.",
+        "answer_D": "",
+        "answer": 1
+    },
+    {
+        "question": "¿De qué manera la literatura promueve un adepto seguro?",
+        "answer_A": "A tener bien virtiendo bien pudiendo estar seguros, impugnando fríos.",
+        "answer_B": "A tratar de todos los procesos biológicos que se hacen en ella.",
+        "answer_C": "Facilitando la disponibilidad y el tiempo para conformar ilusiones de conexión.",
+        "answer_D": "A y B son correctas.",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué sistema se encarga de la activación para la defensa o huida?",
+        "answer_A": "Sistema Simpático",
+        "answer_B": "Sistema Parasimpático",
+        "answer_C": "Sistema de Interacción Social",
+        "answer_D": "",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué tipo de alimentación se relaciona más con el cólico del lactante?",
+        "answer_A": "Lactancia materna exclusiva.",
+        "answer_B": "Lactancia mixta.",
+        "answer_C": "Lactancia artificial.",
+        "answer_D": "",
+        "answer": 1
+    },
+    {
+        "question": "Señala la 'correcta':",
+        "answer_A": "La anquiloglosa no tiene relación con el cólico del lactante.",
+        "answer_B": "70% de los cuadros de cólico se acompañan con RGE y RGE silente.",
+        "answer_C": "El lactante no puede absorber la proteína de la leche de vaca.",
+        "answer_D": "Todas son incorrectas.",
+        "answer": 2
+    },
+    {
+        "question": "En relación con la lactasia, señala la opción 'correcta':",
+        "answer_A": "Los bebés hacen con un déficit fisiológico de la enzima lactasa. Lamayoria no son capaces de absorber la lactosa por completo hasta los 4primeros meses de vida.",
+        "answer_B": "La lactosa que se absorbe ilegal al colon provocando deshidratación.",
+        "answer_C": "",
+        "answer_D": "",
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál sería el sistema más antiguo en el desarrollo de las especies, encargado de las funciones más básicas para la supervivencia?",
+        "answer_A": "Sistema Simpático",
+        "answer_B": "Sistema Parasimpático",
+        "answer_C": "Sistema de Interacción Social",
+        "answer_D": "",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué tipo de alimentación se relaciona más con el cólico del lactante?",
+        "answer_A": "Lactancia materna exclusiva",
+        "answer_B": "Lactancia mixta",
+        "answer_C": "Lactancia artificial",
+        "answer_D": "",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué sistema se encarga de la activación para el estrés o huida?",
+        "answer_A": "Sistema Simpático",
+        "answer_B": "Sistema Parasimpático",
+        "answer_C": "Sistema de Interacción Social",
+        "answer_D": "",
+        "answer": 1
+    },
+    {
+        "question": "¿De qué manera la lactancia permite un apego seguro?",
+        "answer_A": "A través de todos los procesos biológicos que se activan en ella.",
+        "answer_B": "Facilitando la disponibilidad y el tiempo para conformar situaciones de conexión.",
+        "answer_C": "A y B son correctas.",
+        "answer_D": "",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué es lo más importante, desde el enfoque del apego, cuando acompañamos a las familias?",
+        "answer_A": "Estar presente, conectados y sintonizando el sentir del otro, 'estar con'",
+        "answer_B": "Tener claro cómo dar una respuesta adecuada según el sujeto de apego.",
+        "answer_C": "Explicar en todo momento lo que está sucediendo a nivel físico-fisiológico a los miembros.",
+        "answer_D": "",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué patrón postural produce una relajación en los tejidos?",
+        "answer_A": "Patrón extensor",
+        "answer_B": "Patrón flexor",
+        "answer_C": "Es indiferente.",
+        "answer_D": "Correcto",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué situación produce más exposición a la lactosa?",
+        "answer_A": "En la lactancia materna",
+        "answer_B": "En la leche de fórmula",
+        "answer_C": "En la lactancia materna cuando no se vacía adecuadamente el pecho",
+        "answer_D": "",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué es lo más importante, desde el enfoque del apego, cuando acompañamos a las familias?",
+        "answer_A": "Estar presente, conectándose emocionalmente y sentir del otro, 'estar con'",
+        "answer_B": "Tener claro cómo dar una respuesta adecuada según el ciclo de apego.",
+        "answer_C": "Explicar en todo momento lo que está sucediendo a nivel psico-fisiológico a los miembros.",
+        "answer_D": "",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué sistema se encarga de la interacción para la defensa y huida?",
+        "answer_A": "Sistema Simpático",
+        "answer_B": "Sistema Parasimpático",
+        "answer_C": "Sistema de Interacción Social",
+        "answer_D": "",
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál sistema es más antiguo en el desarrollo de las especies, encargado de las funciones más básicas para la supervivencia?",
+        "answer_A": "Sistema Simpático",
+        "answer_B": "Sistema Parasimpático",
+        "answer_C": "",
+        "answer_D": "",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué hormona está aumentada en los cuadros de cólicos?",
+        "answer_A": "Grelina",
+        "answer_B": "Motilina",
+        "answer_C": "Gastrina",
+        "answer_D": "Todas las anteriores son correctas",
+        "answer": 4
+    }
+]
