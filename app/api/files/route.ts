@@ -1,15 +1,23 @@
 import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
-import cleanName from '../../../utils/clean';
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
 
 export async function GET(req: NextRequest) {
-    const publicDir = path.join(process.cwd(), 'public/tests');
     try {
-        const files = await fs.promises.readdir(publicDir);
-        const cleaned_files = files.map((file) => file);
-        return NextResponse.json(cleaned_files);
+        const filenames = await prisma.tests.findMany({
+            distinct: 'source_file',
+            select: { source_file: true }
+        });
+
+        const options = filenames.map(file => file.source_file);
+        return NextResponse.json(options);
     } catch (err) {
-        return NextResponse.json({ error: 'Unable to read files' }, { status: 500 });
+        console.log(err);
+        return NextResponse.json({ error: 'Unable to fetch data' }, { status: 500 });
+    } finally {
+        await prisma.$disconnect();
     }
 }

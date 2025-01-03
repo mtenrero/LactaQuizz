@@ -1,0 +1,32 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["driverAdapters", "views", "prismaSchemaFolder"]
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Tests {
+  id          String  @id @default(auto()) @map("_id") @db.ObjectId
+  answer      Int
+  answer_A    String
+  answer_B    String
+  answer_C    String
+  answer_D    String
+  corrected   Boolean?
+  image_name  String
+  question    String
+  source_file String
+  uncertain   Boolean?
+}
+
+model lactaquizz {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+}
+
+view filenames {
+  id    String @id @default(auto()) @map("_id") @db.ObjectId
+  source_file String
+}

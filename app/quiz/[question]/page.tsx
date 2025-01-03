@@ -30,7 +30,7 @@ const Quizizz = () => {
 	useEffect(() => {
 		const fetchQuestions = async () => {
 			try {
-				const response = await fetch(`/tests/${question}`);
+				const response = await fetch(`/api/questions/${question}`);
 				const data = await response.text();
 				const jsonData = JSON.parse(data);
 				jsonData.sort(() => Math.random() - 0.5);

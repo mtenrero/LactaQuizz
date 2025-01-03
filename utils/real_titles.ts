@@ -55,7 +55,7 @@ export function getExamTitles(filename: string): string {
   
     // 2. Extrae la fecha del nombre del fichero con RegExp
     //    Formato esperado: datos_YYYY-MM-DD.json
-    const dateMatch = filename.match(/^datos_(\d{4}-\d{2}-\d{2})\.json$/);
+    const dateMatch = filename.match(/^datos_(\d{4}-\d{2}-\d{2})$/);
     if (!dateMatch) {
       return `Nombre de fichero no válido: ${filename}`;
     }
