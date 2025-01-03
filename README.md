@@ -1,44 +1,21 @@
-### CREATE PROJECT:
-    npm create vite@latest
-    npm install
+### LactaQuizz
+
+LactaQuizz es una aplicación muy sencilla con un set de preguntas utilizadas en cursos de Asesora de Lactancia.
+
+Las preguntas están organizadas por temas o por mezclas de temas.
+
+El usuario debe seleccionar un grupo y responder a las preguntas (20 por sesión) y al finalizar obtendrá una puntuación
+
+Las respuestas son únicas de la sesión del usuario y no se almacenan en ningún sitio
 
 # run code 
-    npm start
+    npm dev
 ### Demo
-    https://cbtruong.github.io/ReactJS-QuizzizApp/
+    https://lactquiz.vercel.app
 ### Run code 
-    npm start
+    npm dev
 ### Deploy code
-    npm install gh-pages --save-dev
-    - open file package.json and add to the command below
+    npm build
+    npm start
 
-    "homepage" : "url"
-    Example:
-    {
-    "homepage" : "https://[gitname].github.io/[projectName]",
-    "name": "portfolio-website",
-    "version": "0.1.0",
-    .....
-    }
-    <!-- ======================================== -->
-    add to the command below
-    "predeploy":"npm run build"
-    "deploy":"gh-pages -d build"
-    Example:
-        "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "predeploy":"npm run build",
-        "deploy":"gh-pages -d build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-        },
-### If use vite
-    - open file vite.config.js and add to the command below
-    export default defineConfig({
-      plugins: [react()],
-      base:'/[projectGitName]/'
-})
-
-# DEPLOY
-    Deploy: npm run deploy
+    Or deply it to Vercel / Netlify / Amplify (whatever)
