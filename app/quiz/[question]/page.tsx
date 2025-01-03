@@ -7,6 +7,7 @@ import { useParams } from 'next/navigation';
 import { Question } from "../../../utils/types";
 import { useRouter } from "next/navigation";
 import cleanName from "../../../utils/clean";
+import { getExamTitles } from "../../../utils/real_titles";
 
 
 const Quizizz = () => {
@@ -89,7 +90,7 @@ const Quizizz = () => {
 	return (
 		<div className="container">
 			<h1 style={{textAlign: "center"}}>LactaQuiz</h1>
-			<h2 style={{textAlign: "center"}}>{cleanName(Array.isArray(question) ? question[0] : question || "") || ""}</h2>
+			<h2 style={{textAlign: "center"}}>{getExamTitles(Array.isArray(question) ? question[0] : question || "") || ""}</h2>
 			{sentence < questions.length ? (
 				<>
 					<div className="multiple_choices">
@@ -125,7 +126,9 @@ const Quizizz = () => {
 					</div>
 					<div className="box_btn">
 						<p>{sentence + 1} / {questions.length} (Total disponibles: {maxAvailable})</p>
+						<p>Si hay mas de 20 tests disponibles, accediendo de nuevo al test o recargando la página, aparecerán nuevas preguntas</p>
 					<button onClick={handleNext}>Siguiente</button>
+					<br/>
 					<button style={{backgroundColor: "darkred"}} onClick={() => {router.push('/')}}>Volver a la lista</button>
 					</div>
 				</>
@@ -134,6 +137,7 @@ const Quizizz = () => {
 					<h3 style={{ textAlign: "center" }}>Fin de test {correct}/{questions.length} ({((correct / questions.length) * 10).toPrecision(2)}/10)</h3>
 					<div className="box_btn">
 						<button onClick={() => {router.back()}}>Volver a la lista</button>
+						<br/>
 						<button onClick={handleAgain}>Reiniciar</button>
 
 					</div>

@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import React from 'react'
 import cleanName from '../utils/clean'
+import { getExamTitles } from '../utils/real_titles'
 
 export default function FileList() {
   const [files, setFiles] = useState<string[]>([])
@@ -32,11 +33,11 @@ export default function FileList() {
   } else {
     return (
       <div className="container">
-        <h1>Selecciona test</h1>
+        <h1>Selecciona el tema del test</h1>
         <ul>
           {files?.map((file, index) => (
             <li key={index}>
-              <Link href={`/quiz/${file}`}>{cleanName(file)}</Link>
+              <Link href={`/quiz/${file}`}>{getExamTitles(file)} ({file.replace("datos_","").replace(".json", "").replace("2024-", "").split("-").reverse().join("/")})</Link>
             </li>
           ))}
         </ul>
