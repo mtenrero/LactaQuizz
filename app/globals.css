@@ -7,10 +7,6 @@ html, body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* 
-  Opcional: si quieres que todo el body ocupe la pantalla completa 
-  y el contenido se centre vertical/horizontal, lo conviertes en flex:
-*/
 body {
   display: flex;
   align-items: center;
@@ -19,17 +15,15 @@ body {
 }
 
 #root {
-  /* Si usas algo parecido a create-react-app, #root suele ser el ID contenedor;
-     en Next 13+, no siempre se usa #root, pero lo puedes dejar para referencia. */
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Contenedor principal */
 .container {
-  width: 50%;
+  width: 90%;
+  max-width: 600px;
   background: white;
   border-radius: 10px;
   padding: 30px 40px;
@@ -37,9 +31,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow-y: auto; /* Permite el desplazamiento vertical */
+  max-height: 80vh; /* Limita la altura máxima del contenedor */
 }
 
-/* Títulos */
 h1 {
   font-size: 25px;
   padding: 5px 0;
@@ -47,11 +42,12 @@ h1 {
   margin-bottom: 10px;
 }
 
-/* Lista de opciones */
 ul {
   padding: 0;
   margin: 0;
   width: 100%;
+  overflow-y: auto; /* Permite el desplazamiento vertical */
+  max-height: 60vh; /* Limita la altura máxima de la lista */
 }
 
 li {
