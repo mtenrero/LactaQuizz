@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to left, #4B507F, #0D1665);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  background: white;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+h1, h2 {
+  text-align: center;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.editor-layout {
+  display: flex;
+  gap: 40px;
+}
+
+.question-list, .question-editor {
+  flex: 1;
+}
+
+.question-list ul, .options {
+  list-style: none;
+  padding: 0;
+}
+
+.question-list li, .options li {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.question-list li:hover, .options li:hover {
+  background-color: #f0f0f0;
+}
+
+.question-list li.selected {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+
+.options li.correct {
+  background: #dffff2;
+  border-color: #00d397;
+}
+
+.save li {
+  background: hsl(235, 83%, 65%);
+  border-color: hsl(235, 83%, 65%);
+  color: white;
+}
+
+
+.uncertain li.uncertain {
+  background: #fbffdf;
+  border-color: #ccd300;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .editor-layout {
+    flex-direction: column;
+  }
+}
+

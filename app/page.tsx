@@ -36,9 +36,13 @@ export default function FileList() {
         <h1>Selecciona el tema del test</h1>
         <ul>
           {files?.map((file, index) => (
+            <>
             <li key={index}>
               <Link href={`/quiz/${file}`}>{getExamTitles(file)} ({file.replace("datos_","").replace(".json", "").replace("2024-", "").split("-").reverse().join("/")})</Link>
             </li>
+            <Link href={"/review/" + file}> ^ Revisar preguntas</Link>
+            </>
+            
           ))}
         </ul>
       </div>

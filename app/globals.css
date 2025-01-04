@@ -63,7 +63,7 @@ li {
 }
 
 li:hover {
-  background-color: black;
+  background-color: lightgray;
   color: white;
   font-weight: bold;
 }
