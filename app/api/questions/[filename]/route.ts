@@ -13,6 +13,8 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ file
             },
         });
 
+        questions.sort((a, b) => Number(a.image_name) - Number(b.image_name));
+
         return NextResponse.json(questions);
     } catch (err) {
         console.log(err);
