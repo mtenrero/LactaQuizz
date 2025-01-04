@@ -15,6 +15,8 @@ model Tests {
   answer_B    String
   answer_C    String
   answer_D    String
+  answer_E    String?
+  answer_F    String?
   corrected   Boolean?
   image_name  String
   question    String

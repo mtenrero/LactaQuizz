@@ -12,12 +12,13 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ file
                 source_file: Array.isArray(filename) ? filename[0] : filename,
             },
         });
+        console.log(questions);
 
         questions.sort((a, b) => Number(a.image_name) - Number(b.image_name));
 
         return NextResponse.json(questions);
     } catch (err) {
-        console.log(err);
+        console.log((err as Error).stack);
         return NextResponse.json({ error: 'Unable to fetch data' }, { status: 500 });
     } finally {
         await prisma.$disconnect();

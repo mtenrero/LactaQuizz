@@ -4,10 +4,10 @@ import { useEffect, useRef, useState } from "react";
 import "./Quizizz.css";
 import React from "react";
 import { useParams } from 'next/navigation';
-import { Question } from "../../../utils/types";
 import { useRouter } from "next/navigation";
 import cleanName from "../../../utils/clean";
 import { getExamTitles } from "../../../utils/real_titles";
+import { Tests } from "@prisma/client";
 
 
 const Quizizz = () => {
@@ -15,17 +15,20 @@ const Quizizz = () => {
 	const router = useRouter()
 	const { question } = useParams();
 	const [sentence, setSentence] = useState(0);
-	const [questions, setQuestions] = useState<Question[]>([]);
+	const [questions, setQuestions] = useState<Tests[]>([]);
 	const [lock, setLock] = useState(false);
 	const [correct,setCorrect]=useState(0);
-	const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
+	const [currentQuestion, setCurrentQuestion] = useState<Tests | null>(null);
 	const [maxAvailable, setMaxAvailable] = useState(0);
 
 	const Option1 = useRef<HTMLLIElement>(null);
 	const Option2 = useRef<HTMLLIElement>(null);
 	const Option3 = useRef<HTMLLIElement>(null);
 	const Option4 = useRef<HTMLLIElement>(null);
-	const Options = [Option1, Option2, Option3, Option4];
+	const Option5 = useRef<HTMLLIElement>(null);
+	const Option6 = useRef<HTMLLIElement>(null);
+
+	const Options = [Option1, Option2, Option3, Option4, Option5, Option6];
 
 	useEffect(() => {
 		const fetchQuestions = async () => {
@@ -121,6 +124,18 @@ const Quizizz = () => {
 								onClick={(e) => handleCheckAns(e, 4)}
 							>
 								{currentQuestion?.answer_D}
+							</li>
+							<li
+								ref={Option5}
+								onClick={(e) => handleCheckAns(e, 5)}
+							>
+								{currentQuestion?.answer_E}
+							</li>
+							<li
+								ref={Option6}
+								onClick={(e) => handleCheckAns(e, 6)}
+							>
+								{currentQuestion?.answer_F}
 							</li>
 						</ul>
 					</div>

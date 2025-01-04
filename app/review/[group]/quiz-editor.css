@@ -71,6 +71,12 @@ h1, h2 {
   color: white;
 }
 
+.delete li {
+  background: darkred;
+  border-color: darkred;
+  color: white;
+}
+
 
 .uncertain li.uncertain {
   background: #fbffdf;

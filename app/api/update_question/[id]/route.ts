@@ -29,3 +29,21 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ id:
         await prisma.$disconnect();
     }
 }
+
+export async function DELETE(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+    const id = (await params).id;
+
+    try {
+        const deleted = await prisma.tests.delete({
+            where: {
+                id: id,
+            },
+        });
+        return NextResponse.json(deleted);
+    } catch (err) {
+        console.log((err as Error).stack);
+        return NextResponse.json({ error: 'Unable to fetch data' }, { status: 500 });
+    } finally {
+        await prisma.$disconnect();
+    }
+}
