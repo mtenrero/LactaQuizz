@@ -1,17 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 body {
-  font-family: 'Poppins', sans-serif;
   background: linear-gradient(to left, #4B507F, #0D1665);
   margin: 0;
   padding: 0;
-  display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
 }
 
-.container {
+.qcontainer {
   width: 90%;
   max-width: 1200px;
   background: white;
@@ -69,6 +67,17 @@ h1, h2 {
   background: hsl(235, 83%, 65%);
   border-color: hsl(235, 83%, 65%);
   color: white;
+}
+
+.save {
+  background: hsl(235, 83%, 65%);
+  border-color: hsl(235, 83%, 65%);
+  color: white;
+  }
+
+.save:hover {
+  background: darkblue;
+  border-color: darkblue;
 }
 
 .delete li {

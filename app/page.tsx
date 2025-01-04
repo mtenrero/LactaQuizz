@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import React from 'react'
+import { Container, Title, List, ListItem, Loader, Anchor, Group } from '@mantine/core'
 import cleanName from '../utils/clean'
 import { getExamTitles } from '../utils/real_titles'
 
@@ -29,25 +30,26 @@ export default function FileList() {
   }, [])
 
   if (loading) {
-    return <div>Loading...</div>
+    return <Loader />
   } else {
     return (
-      <div className="container">
-        <h1>Selecciona el tema del test</h1>
-        <ul>
+      <Container>
+        <Title order={1}>Selecciona el tema del test</Title>
+        <List>
           {files?.map((file, index) => (
-            <>
-            <li key={index}>
-              <Link href={`/quiz/${file}`}>{getExamTitles(file)} ({file.replace("datos_","").replace(".json", "").replace("2024-", "").split("-").reverse().join("/")})</Link>
-            </li>
-            <Link href={"/review/" + file}> ^ Revisar preguntas</Link>
-            </>
-            
+            <ListItem key={index}>
+              <Group>
+                <Anchor component={Link} href={`/quiz/${file}`}>
+                  {getExamTitles(file)} ({file.replace("datos_","").replace(".json", "").replace("2024-", "").split("-").reverse().join("/")})
+                </Anchor>
+                <Anchor component={Link} href={`/review/${file}`}>
+                  ^ Revisar preguntas
+                </Anchor>
+              </Group>
+            </ListItem>
           ))}
-        </ul>
-      </div>
+        </List>
+      </Container>
     )
   }
-
-  
 }

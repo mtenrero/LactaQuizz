@@ -5,6 +5,9 @@ import './quiz-editor.css'
 import { useParams } from 'next/navigation'
 import { Tests } from '@prisma/client'
 import Link from 'next/link'
+import NewQuestionModal from '../../components/NewQuestionModal'
+import { Button } from '@mantine/core'
+
 
 export default function QuizEditor() {
   const { group } = useParams()
@@ -14,6 +17,7 @@ export default function QuizEditor() {
   const [selectedQuestion, setSelectedQuestion] = useState<Tests | null>(null)
   const [password, setPassword] = useState('')
   const [isAuthenticated, setIsAuthenticated] = useState(false)
+  const [newQuestionModalOpened, setNewQuestionModalOpened] = useState(false)
 
   useEffect(() => {
     if (isAuthenticated) {
@@ -75,8 +79,37 @@ export default function QuizEditor() {
     )
   }
 
+  function processNewQuestion(question: Tests): void {
+    if (question) {
+      console.log(question)
+      setQuestions([...questions, question])
+      fetch('/api/questions/' + group, {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(question),
+      })
+        .then(response => response.json())
+        .then(data => {
+          console.log('New question added successfully:', data)
+        })
+        .catch(error => {
+          console.error('Error adding new question:', error)
+          alert('NO GUARDADO ERROR!')
+        })
+    }
+    setNewQuestionModalOpened(false)
+  }
+
+
+  function handleNewQuestion(): void {
+    setNewQuestionModalOpened(true)
+  }
+
+
   return (
-    <div className="container">
+    <div className="qcontainer">
       <Link href="/">Inicio</Link>
       <h1>Quiz Editor</h1>
       <div className="editor-layout">
@@ -92,6 +125,13 @@ export default function QuizEditor() {
                 {index + 1}. {question.question}
               </li>
             ))}
+             <li 
+                className='save'
+                key="new" 
+                onClick={() => handleNewQuestion()}
+              >
+                NUEVA PREGUNTA
+              </li>
           </ul>
         </div>
         {selectedQuestion && (
@@ -172,73 +212,73 @@ export default function QuizEditor() {
               </li>
             </ul>
             <hr />
-            <ul className="save">
-              <li 
-                onClick={() => {
-                    if (selectedQuestion) {
-                        console.log(selectedQuestion)
-                        fetch(`/api/update_question/${selectedQuestion.id}`, {
-                            method: 'POST',
-                            headers: {
-                                'Content-Type': 'application/json',
-                            },
-                            body: JSON.stringify(selectedQuestion),
-                        })
-                            .then(response => response.json())
-                            .then(data => {
-                              // Update the question in the questions array
-                                const updatedQuestions = questions.map(q => 
-                                  q.id === selectedQuestion.id ? selectedQuestion : q
-                                )
-                                setQuestions(updatedQuestions)
-                                setSaved(true)
-                                console.log('Question updated successfully:', data)
-                            })
-                            .catch(error => {
-                                console.error('Error updating question:', error)
-                                alert('NO GUARDADO ERROR!')
-
-                            })
-                        // Here you would typically send an API request to save the question
-                        // saveQuestion(selectedQuestion)
-                    }
-                }}
-                className="save"
+            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+              <Button 
+              onClick={() => {
+                if (selectedQuestion) {
+                console.log(selectedQuestion)
+                fetch(`/api/update_question/${selectedQuestion.id}`, {
+                  method: 'POST',
+                  headers: {
+                  'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify(selectedQuestion),
+                })
+                  .then(response => response.json())
+                  .then(data => {
+                  // Update the question in the questions array
+                  const updatedQuestions = questions.map(q => 
+                    q.id === selectedQuestion.id ? selectedQuestion : q
+                  )
+                  setQuestions(updatedQuestions)
+                  setSaved(true)
+                  console.log('Question updated successfully:', data)
+                  })
+                  .catch(error => {
+                  console.error('Error updating question:', error)
+                  alert('NO GUARDADO ERROR!')
+                  })
+                // Here you would typically send an API request to save the question
+                // saveQuestion(selectedQuestion)
+                }
+              }}
+              className="save"
+              style={{ flex: 1, marginRight: '0.5rem' }}
               >
-                Guardar {saved ? '✔️OK' : ''}
-              </li>
-            </ul>
-            <ul className="delete">
-                <li 
-                onClick={() => {
-                  if (selectedQuestion && confirm('Are you sure you want to delete this question?')) {
-                    console.log(selectedQuestion)
-                    fetch(`/api/update_question/${selectedQuestion.id}`, {
-                      method: 'DELETE',
-                    })
-                      .then(response => response.json())
-                      .then(data => {
-                        // Remove the deleted question from the questions array
-                        const updatedQuestions = questions.filter(q => q.id !== selectedQuestion.id)
-                        setQuestions(updatedQuestions)
-                        setDeleted(true)
-                        console.log('Question deleted successfully:', data)
-                      })
-                      .catch(error => {
-                        console.error('Error deleting question:', error)
-                        alert('NO BORRADA ERROR!')
-
-                      })
-                  }
-                }}
-                className="delete"
-                >
-                Borrar {deleted ? '✔️OK' : ''}
-                </li>
-            </ul>
+              Guardar {saved ? '✔️OK' : ''}
+              </Button>
+              <Button 
+              color='red'
+              onClick={() => {
+                if (selectedQuestion && confirm('Are you sure you want to delete this question?')) {
+                console.log(selectedQuestion)
+                fetch(`/api/update_question/${selectedQuestion.id}`, {
+                  method: 'DELETE',
+                })
+                  .then(response => response.json())
+                  .then(data => {
+                  // Remove the deleted question from the questions array
+                  const updatedQuestions = questions.filter(q => q.id !== selectedQuestion.id)
+                  setQuestions(updatedQuestions)
+                  setDeleted(true)
+                  console.log('Question deleted successfully:', data)
+                  })
+                  .catch(error => {
+                  console.error('Error deleting question:', error)
+                  alert('NO BORRADA ERROR!')
+                  })
+                }
+              }}
+              className="delete"
+              style={{ flex: 1, marginLeft: '0.5rem' }}
+              >
+              Borrar {deleted ? '✔️OK' : ''}
+              </Button>
+            </div>
           </div>
         )}
       </div>
+      <NewQuestionModal group={Array.isArray(group) ? group[0] : group || ''} isModalOpened={newQuestionModalOpened} handleUpdate={processNewQuestion} />
     </div>
   )
 }

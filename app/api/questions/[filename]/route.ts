@@ -24,3 +24,24 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ file
         await prisma.$disconnect();
     }
 }
+
+export async function PUT(req: NextRequest, { params }: { params: Promise<{ filename: string }> }) {
+    const filename = (await params).filename;
+
+    try {
+        let data = await req.json();
+        let data_no_id = { ...data };
+        delete data_no_id["id"];
+        data_no_id["corrected"] = true;
+        const newItem = await prisma.tests.create({data:{
+            ...data_no_id,
+            source_file: filename
+        }});
+        return NextResponse.json(newItem);
+    } catch (err) {
+        console.log((err as Error).stack);
+        return NextResponse.json({ error: 'Unable to fetch data' }, { status: 500 });
+    } finally {
+        await prisma.$disconnect();
+    }
+}
