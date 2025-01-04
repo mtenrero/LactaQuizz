@@ -19,7 +19,7 @@ export function getExamTitles(filename: string): string {
       ],
       "2024-10-13": ["El papel del Padre-Pareja en la LM"],
       "2024-10-21": [
-        "Anujiología y Lactancia Materna",
+        "Anquiloglosia y Lactancia Materna",
         "Anatomía y fisiología de la boca del bebé",
         "Métodos de suplementación y Pezoneras"
       ],

@@ -3,8 +3,7 @@
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import React from 'react'
-import { Container, Title, List, ListItem, Loader, Anchor, Group } from '@mantine/core'
-import cleanName from '../utils/clean'
+import { Container, Title, List, ListItem, Loader, Anchor, Group, Button } from '@mantine/core'
 import { getExamTitles } from '../utils/real_titles'
 
 export default function FileList() {
@@ -24,6 +23,7 @@ export default function FileList() {
         setLoading(false)
       } catch (error) {
         console.error('Error fetching files:', error)
+        setLoading(false)
       }
     }
     fetchFiles()
@@ -33,22 +33,26 @@ export default function FileList() {
     return <Loader />
   } else {
     return (
-      <Container>
-        <Title order={1}>Selecciona el tema del test</Title>
-        <List>
-          {files?.map((file, index) => (
-            <ListItem key={index}>
-              <Group>
-                <Anchor component={Link} href={`/quiz/${file}`}>
-                  {getExamTitles(file)} ({file.replace("datos_","").replace(".json", "").replace("2024-", "").split("-").reverse().join("/")})
-                </Anchor>
-                <Anchor component={Link} href={`/review/${file}`}>
-                  ^ Revisar preguntas
-                </Anchor>
-              </Group>
-            </ListItem>
-          ))}
-        </List>
+      <Container style={{ minHeight: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <div style={{ backgroundColor: 'white', padding: '20px', borderRadius: '8px', boxShadow: '0 0 10px rgba(0,0,0,0.1)' }}>
+            <Title order={1} style={{ color: 'grey' }}>Selecciona el tema del test</Title>
+          <List>
+        {files?.map((file, index) => (
+          <ListItem key={index}>
+            <Group>
+          <Anchor component={Link} href={`/quiz/${file}`}>
+            {getExamTitles(file)} ({file.replace("datos_","").replace(".json", "").replace("2024-", "").split("-").reverse().join("/")})
+          </Anchor>
+            <Anchor component={Link} href={`/review/${file}`}>
+            <Button variant="filled" color="blue" size='xs'>
+              Revisar preguntas
+            </Button>
+            </Anchor>
+            </Group>
+          </ListItem>
+        ))}
+          </List>
+        </div>
       </Container>
     )
   }

@@ -6,7 +6,7 @@ import { useParams } from 'next/navigation'
 import { Tests } from '@prisma/client'
 import Link from 'next/link'
 import NewQuestionModal from '../../components/NewQuestionModal'
-import { Button } from '@mantine/core'
+import { Button, Card } from '@mantine/core'
 
 
 export default function QuizEditor() {
@@ -68,13 +68,21 @@ export default function QuizEditor() {
   if (!isAuthenticated) {
     return (
       <div className="password-container">
-        <h1 style={{color: 'white'}}>Enter Password</h1>
-        <input 
-          type="password" 
-          value={password} 
-          onChange={(e) => setPassword(e.target.value)} 
-        />
-        <button onClick={handlePasswordSubmit}>Submit</button>
+        <Card shadow="sm" padding="lg" style={{ maxWidth: 400, margin: 'auto', marginTop: '20%' }}>
+          <h1 style={{color: 'white'}}>Enter Password</h1>
+            <input 
+            type="password" 
+            value={password} 
+            onChange={(e) => setPassword(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') {
+              handlePasswordSubmit()
+              }
+            }}
+            autoFocus
+            />
+          <Button onClick={handlePasswordSubmit} style={{ marginTop: '1rem' }}>Submit</Button>
+        </Card>
       </div>
     )
   }
