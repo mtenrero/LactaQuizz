@@ -34,8 +34,15 @@ export default function FileList() {
   } else {
     return (
       <Container style={{ minHeight: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        
         <div style={{ backgroundColor: 'white', padding: '20px', borderRadius: '8px', boxShadow: '0 0 10px rgba(0,0,0,0.1)' }}>
             <Title order={1} style={{ color: 'grey' }}>Selecciona el tema del test</Title>
+
+            <Group style={{ width: '100%', marginBottom: '20px' }}>
+          <Button component={Link} href="/search" fullWidth>
+            Buscador
+          </Button>
+        </Group>
           <List>
         {files?.map((file, index) => (
           <ListItem key={index}>
