@@ -22,7 +22,7 @@
     "@tabler/icons-react": "^3.27.1",
     "flexsearch": "^0.7.43",
     "fuse.js": "^7.0.0",
-    "next": "^15.1.3",
+    "next": "15.1.11",
     "prisma": "^6.1.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
